@@ -1,0 +1,118 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Mon Feb  5 10:50:01 2024
+| Host         : O-5-8.local running 64-bit CentOS release 6.9 (Final)
+| Command      : report_timing -sort_by group -max_path 100 -path_type summary -file report/aes_full_timing.rpt
+| Design       : AES
+| Device       : 7s6-cpga196
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+----------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+d_next_reg[113]/C              mxclmn/reg2_reg[3]/D           92.426        
+d_next_reg[113]/C              mxclmn/reg2_reg[1]/D           92.444        
+d_next_reg[113]/C              mxclmn/reg2_reg[4]/D           92.444        
+d_next_reg[113]/C              d_next_reg[0]/D                92.734        
+d_next_reg[113]/C              d_next_reg[100]/D              92.734        
+d_next_reg[113]/C              d_next_reg[101]/D              92.734        
+d_next_reg[113]/C              d_next_reg[102]/D              92.734        
+d_next_reg[113]/C              d_next_reg[103]/D              92.734        
+d_next_reg[113]/C              d_next_reg[104]/D              92.734        
+d_next_reg[113]/C              d_next_reg[105]/D              92.734        
+d_next_reg[113]/C              d_next_reg[106]/D              92.734        
+d_next_reg[113]/C              d_next_reg[107]/D              92.734        
+d_next_reg[113]/C              d_next_reg[108]/D              92.734        
+d_next_reg[113]/C              d_next_reg[109]/D              92.734        
+d_next_reg[113]/C              d_next_reg[10]/D               92.734        
+d_next_reg[113]/C              d_next_reg[110]/D              92.734        
+d_next_reg[113]/C              d_next_reg[111]/D              92.734        
+d_next_reg[113]/C              d_next_reg[112]/D              92.734        
+d_next_reg[113]/C              d_next_reg[113]/D              92.734        
+d_next_reg[113]/C              d_next_reg[114]/D              92.734        
+d_next_reg[113]/C              d_next_reg[115]/D              92.734        
+d_next_reg[113]/C              d_next_reg[116]/D              92.734        
+d_next_reg[113]/C              d_next_reg[117]/D              92.734        
+d_next_reg[113]/C              d_next_reg[118]/D              92.734        
+d_next_reg[113]/C              d_next_reg[119]/D              92.734        
+d_next_reg[113]/C              d_next_reg[11]/D               92.734        
+d_next_reg[113]/C              d_next_reg[120]/D              92.734        
+d_next_reg[113]/C              d_next_reg[121]/D              92.734        
+d_next_reg[113]/C              d_next_reg[122]/D              92.734        
+d_next_reg[113]/C              d_next_reg[123]/D              92.734        
+d_next_reg[113]/C              d_next_reg[124]/D              92.734        
+d_next_reg[113]/C              d_next_reg[125]/D              92.734        
+d_next_reg[113]/C              d_next_reg[126]/D              92.734        
+d_next_reg[113]/C              d_next_reg[127]/D              92.734        
+d_next_reg[113]/C              d_next_reg[12]/D               92.734        
+d_next_reg[113]/C              d_next_reg[13]/D               92.734        
+d_next_reg[113]/C              d_next_reg[14]/D               92.734        
+d_next_reg[113]/C              d_next_reg[15]/D               92.734        
+d_next_reg[113]/C              d_next_reg[16]/D               92.734        
+d_next_reg[113]/C              d_next_reg[17]/D               92.734        
+d_next_reg[113]/C              d_next_reg[18]/D               92.734        
+d_next_reg[113]/C              d_next_reg[19]/D               92.734        
+d_next_reg[113]/C              d_next_reg[1]/D                92.734        
+d_next_reg[113]/C              d_next_reg[20]/D               92.734        
+d_next_reg[113]/C              d_next_reg[21]/D               92.734        
+d_next_reg[113]/C              d_next_reg[22]/D               92.734        
+d_next_reg[113]/C              d_next_reg[23]/D               92.734        
+d_next_reg[113]/C              d_next_reg[24]/D               92.734        
+d_next_reg[113]/C              d_next_reg[25]/D               92.734        
+d_next_reg[113]/C              d_next_reg[26]/D               92.734        
+d_next_reg[113]/C              d_next_reg[27]/D               92.734        
+d_next_reg[113]/C              d_next_reg[28]/D               92.734        
+d_next_reg[113]/C              d_next_reg[29]/D               92.734        
+d_next_reg[113]/C              d_next_reg[2]/D                92.734        
+d_next_reg[113]/C              d_next_reg[30]/D               92.734        
+d_next_reg[113]/C              d_next_reg[31]/D               92.734        
+d_next_reg[113]/C              d_next_reg[32]/D               92.734        
+d_next_reg[113]/C              d_next_reg[33]/D               92.734        
+d_next_reg[113]/C              d_next_reg[34]/D               92.734        
+d_next_reg[113]/C              d_next_reg[35]/D               92.734        
+d_next_reg[113]/C              d_next_reg[36]/D               92.734        
+d_next_reg[113]/C              d_next_reg[37]/D               92.734        
+d_next_reg[113]/C              d_next_reg[38]/D               92.734        
+d_next_reg[113]/C              d_next_reg[39]/D               92.734        
+d_next_reg[113]/C              d_next_reg[3]/D                92.734        
+d_next_reg[113]/C              d_next_reg[40]/D               92.734        
+d_next_reg[113]/C              d_next_reg[41]/D               92.734        
+d_next_reg[113]/C              d_next_reg[42]/D               92.734        
+d_next_reg[113]/C              d_next_reg[43]/D               92.734        
+d_next_reg[113]/C              d_next_reg[44]/D               92.734        
+d_next_reg[113]/C              d_next_reg[45]/D               92.734        
+d_next_reg[113]/C              d_next_reg[46]/D               92.734        
+d_next_reg[113]/C              d_next_reg[47]/D               92.734        
+d_next_reg[113]/C              d_next_reg[48]/D               92.734        
+d_next_reg[113]/C              d_next_reg[49]/D               92.734        
+d_next_reg[113]/C              d_next_reg[4]/D                92.734        
+d_next_reg[113]/C              d_next_reg[50]/D               92.734        
+d_next_reg[113]/C              d_next_reg[51]/D               92.734        
+d_next_reg[113]/C              d_next_reg[52]/D               92.734        
+d_next_reg[113]/C              d_next_reg[53]/D               92.734        
+d_next_reg[113]/C              d_next_reg[54]/D               92.734        
+d_next_reg[113]/C              d_next_reg[55]/D               92.734        
+d_next_reg[113]/C              d_next_reg[56]/D               92.734        
+d_next_reg[113]/C              d_next_reg[57]/D               92.734        
+d_next_reg[113]/C              d_next_reg[58]/D               92.734        
+d_next_reg[113]/C              d_next_reg[59]/D               92.734        
+d_next_reg[113]/C              d_next_reg[5]/D                92.734        
+d_next_reg[113]/C              d_next_reg[60]/D               92.734        
+d_next_reg[113]/C              d_next_reg[61]/D               92.734        
+d_next_reg[113]/C              d_next_reg[62]/D               92.734        
+d_next_reg[113]/C              d_next_reg[63]/D               92.734        
+d_next_reg[113]/C              d_next_reg[64]/D               92.734        
+d_next_reg[113]/C              d_next_reg[65]/D               92.734        
+d_next_reg[113]/C              d_next_reg[66]/D               92.734        
+d_next_reg[113]/C              d_next_reg[67]/D               92.734        
+d_next_reg[113]/C              d_next_reg[68]/D               92.734        
+d_next_reg[113]/C              d_next_reg[69]/D               92.734        
+d_next_reg[113]/C              d_next_reg[6]/D                92.734        
+d_next_reg[113]/C              d_next_reg[70]/D               92.734        
+d_next_reg[113]/C              d_next_reg[71]/D               92.734        
+
+
+
